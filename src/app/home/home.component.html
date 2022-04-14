@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lalique Beauty Services Portail</title>
+<link rel="stylesheet" media="screen" type="text/css" href="/css/main.css"/>
+<meta name="viewport" content="width=device-width"/>
+<meta charset="UTF-8">
+</head>
+<body>
+<div id=logolalique>
+</div>
+<div id=logo>
+<img id=logoimg src="../assets/images/lbs600.jpg" width=30% height=30%>
+</div>
+
+<div id=appli>
+	
+	
+	
+	<div id=nextcloud>
+		<img id=logonextcloud src="../assets/images/temp.png" >
+		<a target="_blank" rel="noopener noreferrer" [routerLink]="['/graphtemp']"><h1>Températures</h1></a>
+	</div>
+	<div id=zammad>
+		<img id=logozammad src="../assets/images/hygro.png">
+		<a target="_blank" rel="noopener noreferrer" [routerLink]="['/graphhygro']"><h1>Hygrométrie</h1></a>
+	</div>
+	
+	<div id=owa>
+		<img id=logoowa src="../assets/images/data.png">
+		<a target="_blank" rel="noopener noreferrer" [routerLink]="['/read']"><h1>Relevés</h1></a>
+	</div>
+	
+	<div id=syspass>
+		<img id=logosyspass src="../assets/images/excel.png">
+		<a target="_blank" rel="noopener noreferrer" [routerLink]="['/exportcsv']"><h1>Export</h1></a>
+	</div>
+</div>
+</body>
+</html> 

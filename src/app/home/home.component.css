@@ -1,0 +1,703 @@
+html { 
+	overflow-x: hidden;
+	overflow-y: hidden; 
+	} 
+body{
+	/* background-color: white; */
+	
+}
+
+#logolalique{
+	position: absolute;
+	margin:auto;
+	width:98%;
+	height:100%;
+	/*background-image:url(laliquelogo.png);*/
+	background-position:center;
+	background-repeat: no-repeat;
+	background-position:center;
+	opacity:0.1;
+}
+#logo{
+	min-width:10%;
+	min-height:10%;
+	margin: 0 auto ;
+}
+#logoimg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#appli{
+	/* background-color:white; */
+	width: 1200px;
+	height: 310px;
+	margin-top:2% ;
+	border-radius: 20px 150px 20px 150px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+h1{
+	font-family: "Lucida Console";
+	font-size: 20px;
+	text-align:center;
+}
+
+#nextcloud{
+	float: left;
+	Max-height:100%;
+	position:relative;
+	margin-top: 1%;
+	margin-left:20px;
+	margin-right:20px;
+	/* border-radius: 3%; */
+	/* border-bottom:10px solid white; */
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+#logonextcloud{
+	display:block;
+	margin:10px auto;
+	height:200px;
+	
+}
+#nextcloud:hover{
+	/* border-radius: 50% 50% 3% 3%; */
+	/* border-bottom:10px solid #54c94d; */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+#nextcloud a:before{
+	content:'';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0);
+}
+
+#zammad{
+	/* background-color:green; */
+	float: left;
+	Max-height:100%;
+	Max-width:100%;
+	position:relative;
+	margin-top: 1%;
+	margin-left:20px;
+	margin-right:20px;
+	/* border-radius: 3%; */
+	/* border-bottom:10px solid white; */
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+#zammad:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+
+#zammad a:before{
+	content:'';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0);
+}
+
+a{
+	color:black;
+	text-decoration:none;
+
+}
+
+#logozammad{
+	display: block;
+	height:200px;
+	margin:10px auto;
+}	
+
+
+#passcore{
+	/* background-color:green; */
+	float: left;
+	Max-height:100%;
+	Max-width:100%;
+	position:relative;
+	margin-top: 1%;
+	margin-left:20px;
+	margin-right:20px;
+	/* border-radius: 3%; */
+	/* border-bottom:10px solid white; */
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+#passcore:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+#logopasscore{
+	display:block;
+	margin:10px auto;
+	height:200px;
+	width:100%;
+	
+}
+#passcore a:before{
+	content:'';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0);
+}
+
+
+#owa{
+	/* background-color:green; */
+	float: left;
+	Max-height:100%;
+	Max-width:100%;
+	position:relative;
+	margin-top: 1%;
+	margin-left:20px;
+	margin-right:20px;
+	/* border-radius: 3%; */
+	/* border-bottom:10px solid white; */
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+#owa:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+#owa a:before{
+	content:'';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0);
+}
+
+#logoowa{
+	display:block;
+	margin:10px auto;
+	height:200px;
+	width:100%;
+	
+}
+#syspass{
+	/* background-color:green; */
+	float: left;
+	Max-height:100%;
+	Max-width:100%;
+	position:relative;
+	margin-top: 1%;
+	margin-left:20px;
+	margin-right:20px;
+	/* border-radius: 3%; */
+	/* border-bottom:10px solid white; */
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+#syspass:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+#syspass a:before{
+	content:'';
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0);
+}
+
+#logosyspass{
+	display:block;
+	margin:10px auto;
+	height:200px;
+	width:100%;
+	
+}
+
+/* ------------------------------------------------- */
+/* --------------RESPONSIVE DESIGN------------------ */
+/* ------------------------------------------------- */
+
+
+
+@media screen and (min-width 1024px) and (max-width: 1280px)
+{
+	#appli{
+		/* background-color:white; */
+		width: 1000px;
+		height: 310px;
+		margin-top:auto ;
+		border-radius: 20px 150px 20px 150px;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	#nextcloud{
+		float: left;
+		Max-height:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:0px;
+		margin-right:0px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#zammad{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:0px;
+		margin-right:0px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#passcore{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:0px;
+		margin-right:0px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#owa{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:0px;
+		margin-right:0px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#syspass{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:0px;
+		margin-right:0px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+}
+
+
+@media screen and (width: 1920px)
+{
+	#appli{
+		/* background-color:white; */
+		width: 1920px;
+		height: 310px;
+		margin-top:5% ;
+		border-radius: 20px 150px 20px 150px;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	#nextcloud{
+		float: left;
+		Max-height:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:92px;
+		margin-right:92px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#zammad{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:92px;
+		margin-right:92px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#passcore{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:92px;
+		margin-right:92px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#owa{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:92px;
+		margin-right:92px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+	#syspass{
+		/* background-color:green; */
+		float: left;
+		Max-height:100%;
+		Max-width:100%;
+		position:relative;
+		margin-top: 1%;
+		margin-left:92px;
+		margin-right:92px;
+		/* border-radius: 3%; */
+		/* border-bottom:10px solid white; */
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	}
+}
+
+/* ------------------------------------------ */
+/* ----------------SMALL FORMAT-------------- */
+/* ------------------------------------------ */
+@media (max-width:1000px){
+	#logolalique{
+		position: absolute;
+		margin:auto;
+		min-width:10%;
+		min-height:10%;
+		/*background-image:url(laliquelogo_small.png);*/
+		background-position:center;
+		background-repeat: no-repeat;
+		background-position:center;
+		opacity:0.2;
+	}
+	
+	#appli{
+	float:left;
+	width: 430px;
+	height: 450px;
+	margin-top:2% ;
+	/* border-radius: 20px ; */
+	/* border: 2px solid red; */
+	margin-left:auto;
+	margin-right:auto;
+	/* background-color:yellow; */
+}
+
+h1{
+	/* font-family: "Lucida Console"; */
+	/* font-size: 20px; */
+	/* text-align:center; */
+}
+
+#nextcloud{
+	float: left;  
+	Max-height:90%; 
+	width:45%;
+	position:relative;
+	 /* border-radius: 50px;  */
+	 /* border:3px solid black;  */
+	 margin-left:auto;
+	 margin-right:auto;
+	/* -webkit-transform: scale(1); */
+	/* transform: scale(1); */
+	/* -webkit-transition: .3s ease-in-out; */
+	/* transition: .3s ease-in-out; */
+	/* background-color:blue; */
+}
+#logonextcloud{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+
+}
+
+#zammad{
+	float:right;
+	/* background-color:green; */
+	Max-height:90%; 
+	width:45%; 
+	position:relative;
+	/* margin-top: 1%; */
+	margin-left:auto;
+	margin-right:auto;
+	/* border-radius: 50px; */
+	/* border:3px solid black; */
+	/* -webkit-transform: scale(1); */
+	/* transform: scale(1); */
+	/* -webkit-transition: .3s ease-in-out; */
+	/* transition: .3s ease-in-out; */
+
+}
+#logozammad{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+}	
+
+#zammad:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	/* -webkit-transform: scale(1.3); */
+	/* transform: scale(1.3); */
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+
+#zammad a:before{
+	/* content:''; */
+	/* position:absolute; */
+	/* left:0; */
+	/* right:0; */
+	/* top:0; */
+	/* bottom:0; */
+	/* background-color:rgba(0,0,0,0); */
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+
+
+#passcore{
+	float:left;
+	/* background-color:green; */
+	Max-height:90%; 
+	width:45%; 
+	position:relative;
+	/* margin-top: 1%; */
+	margin-left:auto;
+	margin-right:auto;
+	/* border-radius: 50px; */
+	/* border:3px solid black; */
+
+}
+
+#passcore:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	/* -webkit-transform: scale(1.3); */
+	/* transform: scale(1.3); */
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+#logopasscore{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+	
+}
+#passcore a:before{
+	/* content:''; */
+	/* position:absolute; */
+	/* left:0; */
+	/* right:0; */
+	/* top:0; */
+	/* bottom:0; */
+	/* background-color:rgba(0,0,0,0); */
+}
+
+
+#owa{
+	float:right;
+	/* background-color:green; */
+	Max-height:90%; 
+	width:45%; 
+	position:relative;
+	/* margin-top: 1%; */
+	margin-left:auto;
+	margin-right:auto;
+	/* border-radius: 50px; */
+	/* border:3px solid black; */
+
+}
+
+#owa:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	/* -webkit-transform: scale(1.3); */
+	/* transform: scale(1.3); */
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+#owa a:before{
+	/* content:''; */
+	/* position:absolute; */
+	/* left:0; */
+	/* right:0; */
+	/* top:0; */
+	/* bottom:0; */
+	/* background-color:rgba(0,0,0,0); */
+}
+
+#logoowa{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+	
+}
+#syspass{
+	float:left;
+	/* background-color:green; */
+	Max-height:90%; 
+	width:45%; 
+	position:relative;
+	/* margin-top: 1%; */
+	margin-left:auto;
+	margin-right:auto;
+	/* border-radius: 50px; */
+	/* border:3px solid black; */
+
+}
+
+#syspass:hover{
+	/* background: radial-gradient(#8ce086 20px,white 70%); */
+	/* border-radius: 50% 50% 3% 3%; */
+	/* -webkit-transform: scale(1.3); */
+	/* transform: scale(1.3); */
+	/* border-bottom:10px solid #54c94d; */
+	/* text-shadow: 1px 1px 2px black; */
+}
+#syspass a:before{
+	/* content:''; */
+	/* position:absolute; */
+	/* left:0; */
+	/* right:0; */
+	/* top:0; */
+	/* bottom:0; */
+	/* background-color:rgba(0,0,0,0); */
+}
+
+#logosyspass{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	height:150px;
+}
+html { 
+	overflow-x: hidden;
+	overflow-y: auto; 
+	} 
+}
+	

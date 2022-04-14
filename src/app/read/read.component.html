@@ -1,0 +1,43 @@
+
+
+<div>
+
+<table class="display" id="LCC">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Date</th>
+      <th scope="col">Time</th>
+      <th scope="col">Device</th>
+      <th scope="col">Temperature</th>
+      <th scope="col">Type</th>
+      <th scope="col">Edits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor = 'let us of readData'>
+      <th scope="row">1</th>
+      <td>{{us.date | date: 'dd/MM/yyyy'}}</td>
+      <td>{{us.time}}</td>
+      <td>{{us.device}}</td>
+      <td>{{us.temperature}}</td>
+      <td>{{us.type}}</td>
+      <td><button (click)="deleteReadData(us.time,us.date)">Delete</button>
+        &nbsp;
+      <a [routerLink]="['/create',us.time,us.date]" >Update</a>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+        <th>#</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Device</th>
+        <th>Temperature</th>
+        <th>Type</th>
+    </tr>
+</tfoot>
+</table>
+
+</div>
